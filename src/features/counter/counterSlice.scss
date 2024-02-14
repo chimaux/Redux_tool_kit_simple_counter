@@ -1,0 +1,41 @@
+.container{
+    .output{
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .button_box{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        .btn{
+            cursor: pointer;
+            padding: 20px;
+          background-color: red;
+          color: #fff;
+        }
+        .btn2{
+            cursor: pointer;
+            padding: 20px;
+            margin-left: 20px;
+            background-color: rgb(7, 189, 49);
+            color: #fff;
+        }
+    }
+.input_container{
+display: flex;
+justify-content: center;
+    .input_value{
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: bold;
+        
+    }
+}
+
+}
